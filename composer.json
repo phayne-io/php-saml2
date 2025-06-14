@@ -2,7 +2,9 @@
   "name": "phayne-io/php-saml2",
   "description": "SAML 2.0 PHP Library",
   "minimum-stability": "stable",
-  "license": "proprietary",
+  "type": "library",
+  "keywords": ["SAML 2.0", "PHP", "library", "Single SignOn", "Single Logout"],
+  "license": "BSD-3-Clause",
   "authors": [
     {
       "name": "Julien Guittard",
@@ -28,7 +30,7 @@
     "malukenho/docheader": "^1.1",
     "phpunit/phpunit": "^11.5",
     "squizlabs/php_codesniffer": "^3.13",
-    "vimeo/psalm": "7.0.0-beta8"
+    "vimeo/psalm": "7.0.0-beta9"
   },
   "autoload": {
     "psr-4": {
